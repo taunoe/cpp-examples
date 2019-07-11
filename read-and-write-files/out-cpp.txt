@@ -1,0 +1,12 @@
+$ gcc read-file.c -o read-file-c
+
+$ g++ read-file.cpp -o read-file-cpp
+
+
+The math library must be linked in when building the executable.
+$ gcc write-file.c -o write-file-c -lm
+
+g++ write-file.cpp -o write-file-cpp
+12
+1234
+123456
